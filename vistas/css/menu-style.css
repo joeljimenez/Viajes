@@ -1,0 +1,154 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: Roboto;
+}
+header{
+	width: 100%;
+	background:black;
+	/*position: fixed;*/
+	z-index: 1;
+	  box-shadow:  0px 3px 3px #EEFFF5;
+}
+nav .container-menu .logo .logo-name img{
+	width: 47%;
+    margin-left: 23%;
+}
+nav .container-menu .logo .icon-menu .btn-menu{
+	display: none;
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+}
+/*enlaces*/
+nav .menu-link ul{
+list-style: none;
+    text-align: right;
+    margin-right: 15%;
+    margin-top: 20px;
+}
+
+nav .menu-link ul li{
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+}
+nav .menu-link ul li a{
+	text-decoration: none;
+	color: white;
+	margin-left:30px;
+	font-size: 26px;
+	
+}
+nav .menu-link ul li a:hover{
+	color: #058D3C;
+	transition: all 0.5s;
+}
+/*paquetes*/
+ 
+.gale{
+	margin-top: 10%;
+}
+.paquetes li{
+ font-size: 20px;
+ margin-left: 15px;
+}
+.paquetes strong{
+	color: navy;
+}
+.cuerpo:hover{
+	opacity: 0.8;
+	transition: 0.9s all;
+}
+.footer a:hover{
+	color: red;
+}
+.footer a{
+	color: white;
+}
+.card:hover{
+	transition: 0.9s all;	
+box-shadow:  0px 3px 3px 1px rgba(131, 131, 131, 0.733);
+}
+.paquetes a:hover{
+color: red;
+}
+@media (max-width: 1230px) {
+ nav .container-menu .logo .logo-name img{
+    width: 62%;
+    margin-left: 23%;
+}
+}  
+@media (max-width: 1105px) {
+ nav .container-menu .logo .logo-name img{
+  width: 70%;
+    margin-left: 23%;
+}
+
+}
+@media (max-width: 1020px) {
+
+ nav .container-menu .logo .logo-name img{
+width: 244px;
+    margin-left: 2%; 
+}
+
+nav .menu-link{
+	position: absolute;
+	background: rgba(0, 2, 7, 0.8);
+	height: 100vh;
+	width: 100%;
+	top: 75px;
+	left: -100%;
+	z-index: 1000;
+	transition: all .6s;
+}
+nav .container-menu .logo .icon-menu .btn-menu{
+	display:block;
+
+}
+
+nav .menu-link ul li{
+	display: block;
+	}
+
+	nav .menu-link ul li a{
+		display: block;
+		height: 50px;
+		border-bottom: 2px solid #fff;
+		padding: 15px;
+		text-align: center;
+		margin: 0px;
+	}
+	nav .menu-link ul{
+ 
+    margin-right: 0%;
+    margin-top: 0%;
+}
+nav .container-menu .logo {
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	margin-right: 10px;
+}
+}
+ 
+@media (min-width:1000px){
+body{
+	background: red;
+}
+}
+
+.paquetes p{
+	font-size: 20px;
+	text-align: justify;
+}
+@media (max-width: 576px) {
+ 
+	.paquetes{
+		width: 90%;
+		margin: auto;
+	}
+}

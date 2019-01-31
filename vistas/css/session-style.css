@@ -1,0 +1,95 @@
+.banner{
+	background-image: url('../img/Slider/Hotel-Casa-Turquesa-Cancun-Mexico.jpg');
+	position: relative;
+	width: 100%;
+	height: 500px;
+	top: 75px;
+	margin: auto;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+
+.banner .bg-banner{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to left, #000 , #4A85FF);
+	opacity: .4;
+}
+
+.banner .lectura{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	 
+}
+ 
+.row1{
+	margin:28px;
+	
+}
+.galeria{
+	font-weight: bold;
+	font-size: 30px;
+}
+.footer{
+    background-image: url(../img/Slider/Hotel-Turquesa.jpg);
+	height: auto;
+	margin: auto;
+	color: white;
+	background-position: center;
+	background-size: cover;
+}
+.bg-footer{
+	position: absolute;
+	width: 100%;
+	height: 328px;
+	background: linear-gradient(to left, #000 , #000);
+	opacity: .6;
+}
+.footer .p-footer{
+font-size: 30px;
+font-weight: bold;
+}
+.titulo{
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+.img-footer{
+width: 20%;
+}
+.contact{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.contact:hover{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+@media (max-width: 576px) {
+	.bg-footer{
+		position: absolute;
+		width: 100%;
+		height: 570px;
+		background: linear-gradient(to left, #000 , #000);
+		opacity: .6;
+	}
+ 
+}
+
+.card-columns .card:hover{
+   opacity: 0.9;
+   transition: 0.9s all;
+   box-shadow:  -3px 4px 20px 3px #a79f9f;;
+}
+ 
